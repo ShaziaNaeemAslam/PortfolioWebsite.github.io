@@ -49,7 +49,7 @@
 
 
 @media only screen and (max-width:550px){
-  .home_text-wrapper h1{
+  .home_text-wrapper h2{
     font-size: 3rem;
     line-height: 5rem;
   }
@@ -57,16 +57,18 @@
 }
 
 @media only screen and (min-width:551px) and (max-width:768px){
-  .home_text-wrapper h1{
-    font-size: 4rem;
+  .home_text-wrapper h2{
+    font-size: 3rem;
     line-height: 6rem;
+  
+    
   }
 }
 
 
 @media only screen and (min-width:769px) and (max-width:990px){
-  .home_text-wrapper h1{
-    font-size: 6rem;
+  .home_text-wrapper h2{
+    font-size: 5rem;
     line-height: 8rem;
   }
 }

@@ -15,7 +15,7 @@ const Home = () => {
     <>
       <section id="home" className="home">
         <div className="home_text-wrapper">
-          <h2>
+          <h2 className="home_text-wrapper-content">
             Hello, I'm Shazia
             <br />
             Mern stack developer
