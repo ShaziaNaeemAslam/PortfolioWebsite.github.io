@@ -18,7 +18,7 @@
     &_header-text{
       display: inline-block;
       color: var(--yellow-theme-sub-text-color);
-      font-size: 22px;
+      font-size: 24px;
       font-weight: 700;
       line-height: 1rem;
       letter-spacing: 0.5px;
@@ -95,7 +95,22 @@ p{
 flex-direction: column;
 &_education{
 width: 100%;
-gap: 2rem;
+gap: 1.5rem;
 }
 }
+
+.timeline_education_vertical-timeline-element{
+  width: 100%;
+}
+.timeline_education .vertical-timeline-element-title-wrapper h3{
+  font-size: 12px;
+}
+.timeline_education .vertical-timeline-element-title-wrapper h4{
+  font-size: 10px;
+}
+.timeline_education .vertical-timeline-element-title-wrapper-description{
+  font-size: 10px;
+}
+
+
 }
