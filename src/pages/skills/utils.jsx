@@ -29,7 +29,7 @@ export const skillsData = [
     data: [
       {
         skillName: "NODE JS",
-        percentage: "60",
+        percentage: "20",
       },
     ],
   },
@@ -38,7 +38,7 @@ export const skillsData = [
     data: [
       {
         skillName: "MONGO DB",
-        percentage: "60",
+        percentage: "40",
       },
     ],
   },

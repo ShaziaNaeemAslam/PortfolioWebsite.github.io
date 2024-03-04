@@ -18,7 +18,7 @@ const Home = () => {
           <h2 className="home_text-wrapper-content">
             Hello, I'm Shazia
             <br />
-            Mern stack developer
+            Front-end developer
           </h2>
         </div>
         <Animate
