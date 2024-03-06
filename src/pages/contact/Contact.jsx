@@ -3,6 +3,7 @@ import { MdContactPhone } from "react-icons/md";
 import "./Contact.scss";
 import Pageheader from "../../components/pageHeaderContainer/Pageheader";
 import { Animate } from "react-simple-animate";
+import { FaPhoneVolume } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -40,41 +41,15 @@ const Contact = () => {
             <div className="contact__content__form">
               <div className="contact__content__form__controlswrapper">
                 <div>
-                  <input
-                    required
-                    name="name"
-                    className="inputName"
-                    type={"text"}
-                  />
-                  <label htmlFor="name" className="nameLabel">
-                    Name
-                  </label>
+                  <h1 className="inputName">Phone: +92-3074289172</h1>
                 </div>
                 <div>
-                  <input
-                    required
-                    name="email"
-                    className="inputEmail"
-                    type={"text"}
-                  />
-                  <label htmlFor="email" className="emailLabel">
-                    Email
-                  </label>
+                  <h1 className="inputEmail">Email: muaznaeem1414@gmail.com</h1>
                 </div>
                 <div>
-                  <textarea
-                    required
-                    name="description"
-                    className="inputDescription"
-                    type={"text"}
-                    rows="5"
-                  />
-                  <label htmlFor="description" className="descriptionLabel">
-                    Description
-                  </label>
+                  <h1 className="inputName">Whatsapp: 03074289172</h1>
                 </div>
               </div>
-              <button>Submit</button>
             </div>
           </Animate>
         </div>
