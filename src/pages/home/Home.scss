@@ -37,12 +37,20 @@
       border: 1.5px solid var(--yellow-theme-main-color);
       border-radius: 4px;
       font-weight: 500;
-
+      margin-left: 15px;
+      a{
+        text-decoration: none;
+        color:var(--yellow-theme-main-color) ;
+        
+      }
+      
       &:hover{
         background: var(--yellow-theme-main-color);
         color: black;
       }
+     
     }
+   
   }
   
 }

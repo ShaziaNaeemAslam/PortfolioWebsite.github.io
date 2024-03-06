@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.scss";
 import { useNavigate } from "react-router-dom";
 import { Animate } from "react-simple-animate";
+import Resume from "../../assets/docs/shaziaCV.pdf";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -33,7 +34,11 @@ const Home = () => {
           }}
         >
           <div className="home_contact-me">
-            <button onClick={handleNavigateToContactMePage}>Hire Me</button>
+            <button onClick={handleNavigateToContactMePage}>Hire Me!</button>
+
+            <a className="btn" href={Resume} download="Shazia.pdf">
+              <button>View Resume</button>
+            </a>
           </div>
         </Animate>
       </section>
